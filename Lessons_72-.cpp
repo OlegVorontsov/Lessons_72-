@@ -48,6 +48,8 @@ int main()
 {
 	setlocale(LC_ALL, "ru");
 
+	int a = 0;
+	cout << a << endl;
 	Human FirstMan;
 	FirstMan.Setname("Иван");
 	FirstMan.Setage(40);
